@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB - 07 - Aplicaciones Web - Ejercicio 1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f3e4ea;
+        }
+        .container {
+            margin-top: 100px;
+        }
+        #saludo {
+            font-size: 2.5rem;
+            color: #007bff;
+        }
+        button.btn-primary {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <h1 id="saludo">¡Hola! ¿Quién eres?</h1>
+        <button class="btn btn-primary mt-3" onclick="cambiarNombre()">Di tu nombre</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
