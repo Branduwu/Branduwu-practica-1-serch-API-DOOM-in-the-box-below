@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", function() {
     
-    var titulo = document.getElementById("saludo");
+    let titulo = document.getElementById("saludo");
     titulo.style.textAlign = "center";
 
    
-    var boton = document.querySelector("button");
+    let boton = document.querySelector("button");
     boton.style.display = "block";
     boton.style.margin = "0 auto";
 
